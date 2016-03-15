@@ -8,18 +8,60 @@
 
 /* Begin PBXBuildFile section */
 		DEA38A131C9864A2006348BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA38A121C9864A2006348BB /* AppDelegate.swift */; };
-		DEA38A151C9864A2006348BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA38A141C9864A2006348BB /* ViewController.swift */; };
-		DEA38A181C9864A2006348BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA38A161C9864A2006348BB /* Main.storyboard */; };
 		DEA38A1A1C9864A2006348BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA38A191C9864A2006348BB /* Assets.xcassets */; };
+		DEA38A2A1C9890BC006348BB /* TVExtendedInterfaceCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA38A291C9890BC006348BB /* TVExtendedInterfaceCreator.m */; };
+		DEA38A321C989193006348BB /* TVCSFont.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA38A2C1C989193006348BB /* TVCSFont.m */; };
+		DEA38A331C989193006348BB /* TVCustomElementsController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA38A2F1C989193006348BB /* TVCustomElementsController.m */; };
+		DEA38A341C989193006348BB /* TVCustomStylesController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA38A311C989193006348BB /* TVCustomStylesController.m */; };
+		DEA38A3F1C9891E6006348BB /* TVCEAttributedText.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA38A371C9891E6006348BB /* TVCEAttributedText.m */; };
+		DEA38A401C9891E6006348BB /* TVCEImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA38A391C9891E6006348BB /* TVCEImage.m */; };
+		DEA38A411C9891E6006348BB /* TVCSTextDecoration.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA38A3B1C9891E6006348BB /* TVCSTextDecoration.m */; };
+		DEA38A421C9891E6006348BB /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA38A3E1C9891E6006348BB /* UIImage+animatedGIF.m */; };
+		DEA38A431C98B569006348BB /* GTWalsheimBlack.otf in Resources */ = {isa = PBXBuildFile; fileRef = DEA38A211C9889A0006348BB /* GTWalsheimBlack.otf */; };
+		DEA38A441C98B570006348BB /* GTWalsheimBlack.otf in Copy Files */ = {isa = PBXBuildFile; fileRef = DEA38A211C9889A0006348BB /* GTWalsheimBlack.otf */; };
+		DEA38A491C98B684006348BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA38A471C98B684006348BB /* Main.storyboard */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DEA38A231C9889D4006348BB /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Fonts;
+			dstSubfolderSpec = 7;
+			files = (
+				DEA38A441C98B570006348BB /* GTWalsheimBlack.otf in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DEA38A0F1C9864A2006348BB /* Mission Control Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mission Control Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEA38A121C9864A2006348BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DEA38A141C9864A2006348BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DEA38A171C9864A2006348BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DEA38A191C9864A2006348BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEA38A1B1C9864A2006348BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA38A211C9889A0006348BB /* GTWalsheimBlack.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = GTWalsheimBlack.otf; path = Assets.xcassets/GTWalsheimBlack.otf; sourceTree = "<group>"; };
+		DEA38A271C9890BC006348BB /* Mission Control Client-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mission Control Client-Bridging-Header.h"; sourceTree = "<group>"; };
+		DEA38A281C9890BC006348BB /* TVExtendedInterfaceCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TVExtendedInterfaceCreator.h; path = ExtendedInterfaceCreator/TVExtendedInterfaceCreator.h; sourceTree = "<group>"; };
+		DEA38A291C9890BC006348BB /* TVExtendedInterfaceCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TVExtendedInterfaceCreator.m; path = ExtendedInterfaceCreator/TVExtendedInterfaceCreator.m; sourceTree = "<group>"; };
+		DEA38A2B1C989193006348BB /* TVCSFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TVCSFont.h; path = ExtendedInterfaceCreator/TVCSFont.h; sourceTree = "<group>"; };
+		DEA38A2C1C989193006348BB /* TVCSFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TVCSFont.m; path = ExtendedInterfaceCreator/TVCSFont.m; sourceTree = "<group>"; };
+		DEA38A2D1C989193006348BB /* TVCustomElementProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TVCustomElementProtocol.h; path = ExtendedInterfaceCreator/TVCustomElementProtocol.h; sourceTree = "<group>"; };
+		DEA38A2E1C989193006348BB /* TVCustomElementsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TVCustomElementsController.h; path = ExtendedInterfaceCreator/TVCustomElementsController.h; sourceTree = "<group>"; };
+		DEA38A2F1C989193006348BB /* TVCustomElementsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TVCustomElementsController.m; path = ExtendedInterfaceCreator/TVCustomElementsController.m; sourceTree = "<group>"; };
+		DEA38A301C989193006348BB /* TVCustomStylesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TVCustomStylesController.h; path = ExtendedInterfaceCreator/TVCustomStylesController.h; sourceTree = "<group>"; };
+		DEA38A311C989193006348BB /* TVCustomStylesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TVCustomStylesController.m; path = ExtendedInterfaceCreator/TVCustomStylesController.m; sourceTree = "<group>"; };
+		DEA38A361C9891E6006348BB /* TVCEAttributedText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TVCEAttributedText.h; path = ExtendedInterfaceCreator/TVCEAttributedText.h; sourceTree = "<group>"; };
+		DEA38A371C9891E6006348BB /* TVCEAttributedText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TVCEAttributedText.m; path = ExtendedInterfaceCreator/TVCEAttributedText.m; sourceTree = "<group>"; };
+		DEA38A381C9891E6006348BB /* TVCEImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TVCEImage.h; path = ExtendedInterfaceCreator/TVCEImage.h; sourceTree = "<group>"; };
+		DEA38A391C9891E6006348BB /* TVCEImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TVCEImage.m; path = ExtendedInterfaceCreator/TVCEImage.m; sourceTree = "<group>"; };
+		DEA38A3A1C9891E6006348BB /* TVCSTextDecoration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TVCSTextDecoration.h; path = ExtendedInterfaceCreator/TVCSTextDecoration.h; sourceTree = "<group>"; };
+		DEA38A3B1C9891E6006348BB /* TVCSTextDecoration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TVCSTextDecoration.m; path = ExtendedInterfaceCreator/TVCSTextDecoration.m; sourceTree = "<group>"; };
+		DEA38A3C1C9891E6006348BB /* TVCustomStyleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TVCustomStyleProtocol.h; path = ExtendedInterfaceCreator/TVCustomStyleProtocol.h; sourceTree = "<group>"; };
+		DEA38A3D1C9891E6006348BB /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+animatedGIF.h"; path = "ExtendedInterfaceCreator/UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		DEA38A3E1C9891E6006348BB /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+animatedGIF.m"; path = "ExtendedInterfaceCreator/UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		DEA38A481C98B684006348BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,13 +94,40 @@
 		DEA38A111C9864A2006348BB /* Mission Control Client */ = {
 			isa = PBXGroup;
 			children = (
+				DEA38A471C98B684006348BB /* Main.storyboard */,
+				DEA38A351C98919C006348BB /* TVCS */,
+				DEA38A211C9889A0006348BB /* GTWalsheimBlack.otf */,
 				DEA38A121C9864A2006348BB /* AppDelegate.swift */,
-				DEA38A141C9864A2006348BB /* ViewController.swift */,
-				DEA38A161C9864A2006348BB /* Main.storyboard */,
 				DEA38A191C9864A2006348BB /* Assets.xcassets */,
 				DEA38A1B1C9864A2006348BB /* Info.plist */,
+				DEA38A271C9890BC006348BB /* Mission Control Client-Bridging-Header.h */,
 			);
 			path = "Mission Control Client";
+			sourceTree = "<group>";
+		};
+		DEA38A351C98919C006348BB /* TVCS */ = {
+			isa = PBXGroup;
+			children = (
+				DEA38A361C9891E6006348BB /* TVCEAttributedText.h */,
+				DEA38A371C9891E6006348BB /* TVCEAttributedText.m */,
+				DEA38A381C9891E6006348BB /* TVCEImage.h */,
+				DEA38A391C9891E6006348BB /* TVCEImage.m */,
+				DEA38A3A1C9891E6006348BB /* TVCSTextDecoration.h */,
+				DEA38A3B1C9891E6006348BB /* TVCSTextDecoration.m */,
+				DEA38A3C1C9891E6006348BB /* TVCustomStyleProtocol.h */,
+				DEA38A3D1C9891E6006348BB /* UIImage+animatedGIF.h */,
+				DEA38A3E1C9891E6006348BB /* UIImage+animatedGIF.m */,
+				DEA38A2B1C989193006348BB /* TVCSFont.h */,
+				DEA38A2C1C989193006348BB /* TVCSFont.m */,
+				DEA38A2D1C989193006348BB /* TVCustomElementProtocol.h */,
+				DEA38A2E1C989193006348BB /* TVCustomElementsController.h */,
+				DEA38A2F1C989193006348BB /* TVCustomElementsController.m */,
+				DEA38A301C989193006348BB /* TVCustomStylesController.h */,
+				DEA38A311C989193006348BB /* TVCustomStylesController.m */,
+				DEA38A281C9890BC006348BB /* TVExtendedInterfaceCreator.h */,
+				DEA38A291C9890BC006348BB /* TVExtendedInterfaceCreator.m */,
+			);
+			name = TVCS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,6 +140,7 @@
 				DEA38A0B1C9864A2006348BB /* Sources */,
 				DEA38A0C1C9864A2006348BB /* Frameworks */,
 				DEA38A0D1C9864A2006348BB /* Resources */,
+				DEA38A231C9889D4006348BB /* Copy Files */,
 			);
 			buildRules = (
 			);
@@ -119,8 +189,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEA38A491C98B684006348BB /* Main.storyboard in Resources */,
+				DEA38A431C98B569006348BB /* GTWalsheimBlack.otf in Resources */,
 				DEA38A1A1C9864A2006348BB /* Assets.xcassets in Resources */,
-				DEA38A181C9864A2006348BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,18 +202,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEA38A151C9864A2006348BB /* ViewController.swift in Sources */,
+				DEA38A411C9891E6006348BB /* TVCSTextDecoration.m in Sources */,
+				DEA38A331C989193006348BB /* TVCustomElementsController.m in Sources */,
+				DEA38A321C989193006348BB /* TVCSFont.m in Sources */,
+				DEA38A421C9891E6006348BB /* UIImage+animatedGIF.m in Sources */,
+				DEA38A401C9891E6006348BB /* TVCEImage.m in Sources */,
+				DEA38A2A1C9890BC006348BB /* TVExtendedInterfaceCreator.m in Sources */,
+				DEA38A341C989193006348BB /* TVCustomStylesController.m in Sources */,
 				DEA38A131C9864A2006348BB /* AppDelegate.swift in Sources */,
+				DEA38A3F1C9891E6006348BB /* TVCEAttributedText.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DEA38A161C9864A2006348BB /* Main.storyboard */ = {
+		DEA38A471C98B684006348BB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DEA38A171C9864A2006348BB /* Base */,
+				DEA38A481C98B684006348BB /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -236,10 +314,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Mission Control Client/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.barkley.Mission-Control-Client";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Mission Control Client/Mission Control Client-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -248,10 +329,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Mission Control Client/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.barkley.Mission-Control-Client";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Mission Control Client/Mission Control Client-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -274,6 +357,7 @@
 				DEA38A201C9864A2006348BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
