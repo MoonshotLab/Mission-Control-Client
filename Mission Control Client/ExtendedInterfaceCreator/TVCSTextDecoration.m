@@ -17,7 +17,7 @@
 
 + (NSArray *)allowedValues
 {
-    return @[@"line-through", @"underline"];
+    return @[@"line-through", @"underline", @"text-shadow"];
 }
 
 + (TVViewElementStyleType)styleType
@@ -46,6 +46,9 @@
         [attributedString addAttribute:NSStrikethroughStyleAttributeName value:@1 range:stringRange];
     } else if ([styleValue isEqualToString:@"underline"]) {
         [attributedString addAttribute:NSUnderlineStyleAttributeName value:@1 range:stringRange];
+    } else if ([styleValue isEqualToString:@"text-shadow"]) {
+        label.shadowColor = [UIColor blackColor];
+        label.shadowOffset = CGSizeMake(7, 7);
     }
     
     label.attributedText = attributedString;
