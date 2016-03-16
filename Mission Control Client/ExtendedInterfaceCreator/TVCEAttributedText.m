@@ -45,6 +45,18 @@
     
     attributedLabel.attributedText = textElement.attributedText;
     
+    // allow for line breaks
+    attributedLabel.lineBreakMode = NSLineBreakByWordWrapping;
+    attributedLabel.numberOfLines = 0;
+    
+    // increase the line height
+    NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
+    [paragraphStyle setLineSpacing:20];
+    NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithAttributedString:attributedLabel.attributedText];
+    NSRange stringRange = NSMakeRange(0, attributedString.length);
+    [attributedString addAttribute:NSParagraphStyleAttributeName value:paragraphStyle range:stringRange];
+    attributedLabel.attributedText = attributedString;
+    
     [TVCustomStylesController applyCustomStyle:style toView:attributedLabel];
     
     if (style.backgroundColor.color) {
