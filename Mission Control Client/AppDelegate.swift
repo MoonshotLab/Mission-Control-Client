@@ -14,7 +14,7 @@ import Foundation
 class AppDelegate: UIResponder, UIApplicationDelegate, TVApplicationControllerDelegate {
     
     // remote locations for javascript files
-    static let TVBaseURL = "http://localhost:3000"
+    static let TVBaseURL = "https://mission-control.turnt.pizza"
     static let TVBootURL = "\(AppDelegate.TVBaseURL)/tvos.js"
     
     // set up the socket client
